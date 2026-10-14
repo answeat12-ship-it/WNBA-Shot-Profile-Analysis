@@ -1,0 +1,13 @@
+# Local development and diagnostic scripts
+Clean.py
+transfer.py
+
+# Original datasets
+data/
+
+# Python-generated files
+__pycache__/
+*.pyc
+
+# masOs files
+.DS_Store
