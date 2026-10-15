@@ -58,6 +58,25 @@ Shot and schedule data were obtained from SportsDataverse / ESPN for the 2025 WN
 
 The analysis focuses on regular-season field-goal attempts, excluding free throws.
 
+
+## Data Availability and Reproducibility
+
+This project uses 2025 WNBA play-by-play shot data and game schedule information obtained through SportsDataverse / ESPN.
+
+The original CSV datasets are not included in this repository.
+
+To reproduce the analysis, the following files must be placed inside the data/ directory:
+
+shots_2025.csv
+
+wnba_schedule_2025.csv
+
+The analysis script reads these datasets, filters regular-season field-goal attempts, calculates player-level shooting metrics, and generates the four visualizations.
+
+Shot zones are defined using project-specific coordinate rules rather than official WNBA shot-zone classifications.
+
+Note: Exact dataset retrieval instructions will be added once the original data extraction process and redistribution permissions are documented.
+
 ## Dataset summary:
 
 Player
