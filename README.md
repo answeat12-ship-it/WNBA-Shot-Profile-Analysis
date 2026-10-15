@@ -12,45 +12,41 @@ Rather than relying exclusively on traditional box-score statistics, this analys
 
 ## Research Questions
 
-How does shot selection differ between Kelsey Mitchell and Jackie Young?
+1. How does shot selection differ between Kelsey Mitchell and Jackie Young?
 
-Which areas of the court generate the greatest scoring efficiency for each player?
+2. Which areas of the court generate the greatest scoring efficiency for each player?
 
-How does three-point shooting compare with interior and midrange production?
+3. How does three-point shooting compare with interior and midrange production?
 
-What offensive tendencies can be identified through spatial shot data?
+4. What offensive tendencies can be identified through spatial shot data?
 
 ## Tools and Technologies
 
-Python
+- Python
+- pandas
+- NumPy
+- Matplotlib
+- Visual Studio Code
+- GitHub
 
-pandas
+## How to Run the Project
 
-NumPy
+1. Clone or download this repository.
+2. Open the project folder in a terminal.
+3. Install the required Python libraries:
 
-Matplotlib
-
-Visual Studio Code
-
-GitHub
-
-How to Run the Project
-
-Clone or download this repository.
-
-Open the project folder in a terminal.
-
-Install the required Python libraries:
-
+```bash
 pip install -r requirements.txt
+```
 
-Ensure the required CSV datasets are available in the data/ folder.
+4. Ensure the required CSV datasets are available in the data/ folder.
+5. Run the analysis:
 
-Run the analysis:
-
+```bash
 python shot_profile_analysis.py
+```
 
-The script processes the shot data, calculates shooting metrics, and generates four visualizations in the visualizations/ directory.
+The script processes the shot data, calculates shooting metrics, and generates four visualizations in the `visualizations`/ directory.
 
 ## Data Source
 
@@ -67,9 +63,9 @@ The original CSV datasets are not included in this repository.
 
 To reproduce the analysis, the following files must be placed inside the data/ directory:
 
-shots_2025.csv
+`shots_2025.csv`
 
-wnba_schedule_2025.csv
+`wnba_schedule_2025.csv`
 
 The analysis script reads these datasets, filters regular-season field-goal attempts, calculates player-level shooting metrics, and generates the four visualizations.
 
@@ -79,29 +75,11 @@ Note: Exact dataset retrieval instructions will be added once the original data 
 
 ## Dataset summary:
 
-Player
-
-Games
-
-Field-Goal Attempts
-
-Kelsey Mitchell
-
-44
-
-691
-
-Jackie Young
-
-44
-
-549
-
-Total
-
-
-
-1,240
+| Player | Games | Field-Goal Attempts |
+|---|---:|---:|
+| Kelsey Mitchell | 44 | 691 |
+| Jackie Young | 44 | 549 |
+| **Total** | | **1,240** |
 
 ## Methodology
 
